@@ -4,7 +4,7 @@ const initialState = {
     tasksList: [],
 };
 
-const tasksReducer = (state = initialState, action) => {
+const flightsReducer  = (state = initialState, action) => {
     switch (action.type) {
         case TASKS_LIST_RECEIVED: {
             return {
@@ -18,4 +18,4 @@ const tasksReducer = (state = initialState, action) => {
     }
 };
 
-export default tasksReducer;
+export default flightsReducer ;
